@@ -52,21 +52,7 @@ const contactsSlice = createSlice({
       );
       state.contacts.items.splice(index, 1);
     },
-    // [filterContact](state, action) {
-    //   state.filter = action.payload;
-    // },
   },
-  // reducers: {
-  //   // addContact: (state, action) => {
-  //   //   state.contacts.push(action.payload);
-  //   // },
-  //   // removeContact: (state, { payload: id }) => {
-  //   //   state.contacts = state.contacts.filter(contact => contact.id !== id);
-  //   // },
-  //   filterContact: (state, action) => {
-  //     state.filter = action.payload;
-  //   },
-  // },
 });
 
 export const { filterContact } = contactsSlice.actions;

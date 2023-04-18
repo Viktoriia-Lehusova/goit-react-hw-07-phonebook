@@ -2,7 +2,7 @@ import { useState } from 'react';
 import shortid from 'shortid';
 
 import { StyledForm, StyledLabel, StyledInput, BtnAdd } from './Form.styled';
-import { useDispatch, useSelector } from 'react-redux/es/exports';
+import { useSelector, useDispatch } from 'react-redux';
 import { addContact } from '../../redux/operations';
 import * as selectors from '../../redux/selector';
 import { nanoid } from 'nanoid';
