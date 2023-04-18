@@ -7,7 +7,7 @@ import { ContactList } from 'components/ContactList/ContactList';
 import { Filter } from 'components/Filter/Filter';
 import { StyledTitle, Box } from './App.styled';
 
-export function App() {
+export default function App() {
   const dispatch = useDispatch();
 
   useEffect(() => {
